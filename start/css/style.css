@@ -2,6 +2,10 @@
 
 /* 基本レイアウト ここから↓ */
 @import url(common.css);
+body {
+    background-color: #f3f2e9;
+    color: #5f5039;
+}
 
 /* 基本レイアウト ここまで↑ */
 
