@@ -5,6 +5,12 @@
 body {
     background-color: #f3f2e9;
     color: #5f5039;
+    font-size: 87.5%;
+    line-height: 1.5;
+}
+header, nav, #breadcrumb, #contents, footer {
+    margin: 0 auto 0 auto;
+    width: 840px;
 }
 
 /* 基本レイアウト ここまで↑ */
