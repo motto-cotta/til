@@ -46,7 +46,13 @@ nav ul li#nav_contact a {
     background-image: url(../images/nav4.png);
 }
 #contents {
-    overflow: hidden;
+    /* overflow: hidden; */
+}
+.crearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+    font-size: 0;
 }
 #main {
     float: left;
@@ -57,6 +63,7 @@ nav ul li#nav_contact a {
     width: 230px;
 }
 footer {
+    clear: both;
     padding-top: 70px;
 }
 /* 基本レイアウト ここまで↑ */
