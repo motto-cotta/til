@@ -70,9 +70,7 @@ footer {
     margin: 0 0 30px 0;
     padding: 35px 0 35px 65px;
     font-size: 156.25%;
-    background-image: url(../images/bg_h1_head.png),url(../images/bg_h1_bottom.png);
-    background-repeat: no-repeat, no-repeat;
-    background-position: left top, left bottom;
+    background: url(../images/bg_h1_head.png) no-repeat left top, url(../images/bg_h1_bottom.png) no-repeat left bottom;
 }
 /* 基本レイアウト ここまで↑ */
 
