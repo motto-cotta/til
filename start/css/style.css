@@ -91,6 +91,13 @@ footer {
     color: #342300;
     text-indent: -175px;
 }
+#news ul li time {
+    display: inline-block;
+    width: 175px;
+    font-weight: bold;
+    color: #6c5f45;
+    text-indent: 0;
+}
 
 /* トップページ ここまで↑ */
 
