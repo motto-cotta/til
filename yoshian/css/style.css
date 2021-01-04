@@ -1,0 +1,430 @@
+@charset "utf-8";
+/*------------------------
+	initialization.css
+------------------------*/
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+a:visited {
+}
+a:hover {
+  color: #c00;
+}
+a:active {
+  color: #cc0000;
+  text-decoration: underline;
+}
+
+table,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  font-size: 1em;
+}
+
+ul,
+ol,
+li,
+dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  list-style-position: outside;
+  font-size: 12px;
+}
+
+img {
+  margin: 0;
+  padding: 0;
+  border: none;
+  line-height: 0;
+}
+
+form {
+  margin: 0;
+  padding: 0;
+}
+
+input,
+select,
+textarea {
+  margin: 0;
+  padding: 0;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+  background-color: #ffffee;
+}
+
+pre,
+address,
+citi {
+  margin: 0;
+  padding: 0;
+}
+
+object,
+embed {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background: #fff none;
+  color: #333333;
+  font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック",
+    YuGothic, "メイリオ", Meiryo, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: 0;
+  height: 100%;
+  margin: 0 auto;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+a:hover img {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+.sp_only {
+  display: none;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+.box {
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 800px; /*--領域確保の為に指定--*/
+  /*--height: 100%; --*/
+  padding: 5%;
+}
+
+h2 {
+  font-family: "Impact";
+  font-size: 55px;
+  text-align: center;
+}
+
+/*--header--*/
+#global-header {
+  width: 150px;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  z-index: 10;
+  color: #fff;
+  background: #5c87a6;
+}
+
+#global-header .global-header-inner {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#global-header h1 {
+  font-size: 1rem;
+  text-align: center;
+  padding: 100px 0;
+}
+
+#main-area {
+  width: calc(100% - 150px);
+  min-width: 940px;
+  position: relative;
+  left: 150px;
+}
+
+.cd-fixed-bg {
+  /* position: relative; */
+  min-height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 2;
+}
+
+.cd-fixed-bg.cd-bg-1 {
+  background-image: url("../img/img01.jpg");
+}
+
+.cd-fixed-bg.cd-bg-2 {
+  background-image: url("../img/img02.jpg");
+}
+
+.cd-fixed-bg.cd-bg-3 {
+  background-image: url("../img/img01.jpg");
+}
+
+.cd-fixed-bg.cd-bg-4 {
+  background-image: url("../img/img02.jpg");
+}
+
+/*--author_area--*/
+.author_area {
+  width: 60%;
+  background: #f9f9f9;
+  border: 1px solid #e3e3e3;
+  overflow: hidden;
+  padding: 4%;
+  box-sizing: border-box;
+  margin: 50px auto;
+  background-color: #fff;
+}
+
+p.author_area_img {
+  float: left !important;
+  width: 15%;
+  line-height: 0 !important;
+  margin: 0 !important;
+  padding: 10px 0 0;
+}
+
+.author_area_info {
+  width: 80%;
+  float: right;
+}
+
+h3.author_area_info_name {
+  font-size: 18px !important;
+  font-weight: bold;
+  margin: 15px 0 !important;
+  padding: 0 0 0 20px !important;
+  border-left: 5px solid #5c87a6;
+}
+
+p.author_area_info_txt {
+  font-size: 13px;
+  line-height: 1.8em;
+}
+
+.M30 {
+  margin-top: 30px !important;
+}
+
+.MB80 {
+  margin-bottom: 80px !important;
+}
+
+ol.media_list {
+  overflow: hidden;
+  clear: both;
+  text-align: center;
+  margin: 0 0 40px;
+}
+
+ol.media_list li {
+  display: inline-block;
+  text-align: center;
+}
+
+ol.media_list li img {
+  width: 40%;
+}
+
+/*--button--*/
+.button {
+  width: 240px;
+  height: 45px;
+  border: 2px solid #2b6db4;
+  background-color: #fff;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 85px auto 0;
+}
+
+.button a {
+  font-size: 14px;
+  font-weight: bold;
+  color: #34495e;
+  text-decoration: none;
+  line-height: 45px;
+  transition: all 0.5s ease;
+  z-index: 2;
+  position: relative;
+}
+
+.eff-4 {
+  width: 240px;
+  height: 50px;
+  left: -240px;
+  background: #2b6db4;
+  position: absolute;
+  transition: all 0.5s ease;
+  z-index: 1;
+}
+
+.button:hover .eff-4 {
+  left: 0;
+}
+
+.button:hover a {
+  color: #fff;
+}
+
+@media screen and (max-width: 736px) {
+  .cd-fixed-bg {
+    background-size: cover;
+    background-attachment: scroll;
+  }
+}
+
+/* ハンバーガーメニュー */
+#global-navi {
+  background: #333;
+  position: fixed;
+  top: 0;
+  right: 0px;
+  width: 100%;
+}
+#wrapper nav ul li {
+  display: inline-block;
+  font-size: 16px;
+  padding: 30px 20px 25px 28px;
+}
+#wrapper nav ul li a {
+  color: #ddd;
+}
+/*スマホ画面で例１のハンバーガーメニューの形にする*/
+@media screen and (max-width: 600px) {
+  #wrapper nav {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 300px;
+    height: 100%;
+    padding-top: 50px;
+    background: #333;
+    font-size: 16px;
+    box-sizing: border-box;
+    z-index: 2;
+  }
+  #wrapper nav ul li {
+    display: block;
+    padding: 20px 28px;
+  }
+
+  #wrapper nav ul li a {
+    text-decoration: none;
+    color: #ddd;
+  }
+
+  #wrapper .btn-gnavi {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 24px;
+    z-index: 3;
+    box-sizing: border-box;
+    cursor: pointer;
+    -webkit-transition: all 400ms;
+    transition: all 400ms;
+  }
+
+  #wrapper .btn-gnavi span {
+    position: absolute;
+    width: 30px;
+    height: 4px;
+    background: #666;
+    border-radius: 10px;
+    -webkit-transition: all 400ms;
+    transition: all 400ms;
+  }
+
+  #wrapper .btn-gnavi span:nth-child(1) {
+    top: 0;
+  }
+
+  #wrapper .btn-gnavi span:nth-child(2) {
+    top: 10px;
+  }
+
+  #wrapper .btn-gnavi span:nth-child(3) {
+    top: 20px;
+  }
+
+  #wrapper .btn-gnavi.open {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+
+  #wrapper .btn-gnavi.open span {
+    background: #fff;
+  }
+
+  #wrapper .btn-gnavi.open span {
+    width: 24px;
+  }
+  #wrapper .contents section p {
+    position: absolute;
+    top: 50%;
+    width: 30%;
+    line-height: 1.4;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 0 0 6px #666;
+  }
+
+  #wrapper .contents section:nth-child(odd) p {
+    left: 10%;
+  }
+
+  #wrapper .contents section:nth-child(even) p {
+    right: 10%;
+  }
+}

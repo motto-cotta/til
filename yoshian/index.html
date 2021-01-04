@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script>
+      $(function () {
+        $(".btn-gnavi").on("click", function () {
+          // ハンバーガーメニューの位置を設定
+          var rightVal = 0;
+          if ($(this).hasClass("open")) {
+            // 位置を移動させメニューを開いた状態にする
+            rightVal = -300;
+            // メニューを開いたら次回クリック時は閉じた状態になるよう設定
+            $(this).removeClass("open");
+          } else {
+            // メニューを開いたら次回クリック時は閉じた状態になるよう設定
+            $(this).addClass("open");
+          }
+
+          $("#global-navi").stop().animate(
+            {
+              right: rightVal,
+            },
+            200
+          );
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <div id="wrapper">
+      <span></span>
+      <span></span>
+      <span></span>
+
+      <nav id="global-navi">
+        <ul class="menu">
+          <li><a href="">トップ</a></li>
+          <li><a href="">概要</a></li>
+          <li><a href="">特集</a></li>
+          <li><a href="">アクセス</a></li>
+          <li><a href="">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="box cd-fixed-bg cd-bg-1">
+      <h1 class="main-ttl">大衆居酒屋 - 内山食堂</h1>
+    </div>
+
+    <div class="box cd-fixed-bg cd-bg-2">
+      <h2>TITLE02</h2>
+    </div>
+
+    <div class="box cd-fixed-bg cd-bg-3"><h2>TITLE03</h2></div>
+
+    <div class="box cd-fixed-bg cd-bg-4">
+      <h2>TITLE04</h2>
+    </div>
+
+    <!--author_area-->
+    <div class="author_area">
+      <p class="author_area_img"><img src="images/page/top/pc.jpg" alt="" /></p>
+      <div class="author_area_info">
+        <h3 class="author_area_info_name">SHU</h3>
+        <p class="author_area_info_txt">
+          1991年生まれ九州の宮崎県育ち高校卒業後、愛知県で自動車関係のお仕事に5年間勤め、WEB業界に転職致しました。<br />
+          趣味:サッカー観戦、ゲーム、映画、漫画基本インドアです！笑<br />
+          つくる、しあわせをテーマとして主にWEBに関する様々な情報を発信しています。
+        </p>
+      </div>
+    </div>
+    <!--/.author_area END-->
+
+    <ol class="media_list">
+      <li>
+        <a href="https://twitter.com/shunaka0325"
+          ><img src="images/common/media_icon02.png" alt="Twitter"
+        /></a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/shu___0325/"
+          ><img src="images/common/media_icon01.png" alt="Instagram"
+        /></a>
+      </li>
+      <li>
+        <a href="https://shu-naka-blog.com/contact/"
+          ><img src="images/common/media_icon03.png" alt="contact"
+        /></a>
+      </li>
+    </ol>
+
+    <ul class="footer_btn">
+      <li>
+        <div class="button M30">
+          <div class="eff-4"></div>
+          <a href="https://shu-naka-blog.com/">OFFICIAL SITE</a>
+        </div>
+      </li>
+      <li>
+        <div class="button M30 MB80">
+          <div class="eff-4"></div>
+          <a href="https://shu-naka-blog.com/html/parallax_css/"
+            >PARALLAX SITE</a
+          >
+        </div>
+      </li>
+    </ul>
+  </body>
+</html>
