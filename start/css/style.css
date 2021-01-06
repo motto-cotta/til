@@ -102,6 +102,14 @@ footer {
 /* トップページ ここまで↑ */
 
 /* 「結婚式場のコンセプト」ページ ここから↓ */
+.image_right {
+    float: right;
+    margin-left: 25px;
+}
+.image_left {
+    float: left;
+    margin-right: 25px;
+}
 
 /* 「結婚式場のコンセプト」ページ ここまで↑ */
 
