@@ -102,6 +102,10 @@ footer {
 /* トップページ ここまで↑ */
 
 /* 「結婚式場のコンセプト」ページ ここから↓ */
+.concept_box {
+    overflow: hidden;
+    margin-bottom: 30px;
+}
 .image_right {
     float: right;
     margin-left: 25px;
