@@ -129,6 +129,9 @@ table th, table td {
     padding: 15px;
     border: 1px solid #6c5f45;
 }
+table tr th:first-child {
+    width:70px;
+}
 
 /* 「プランのご案内」ページ ここまで↑ */
 
