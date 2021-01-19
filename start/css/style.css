@@ -132,6 +132,10 @@ table th, table td {
 table tr th:first-child {
     width:70px;
 }
+table tbody th,
+table tbody td {
+    vertical-align: top;
+}
 
 /* 「プランのご案内」ページ ここまで↑ */
 
