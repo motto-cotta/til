@@ -136,6 +136,9 @@ table tbody th,
 table tbody td {
     vertical-align: top;
 }
+table thead tr th {
+    background-color: #eee8cc;
+}
 
 /* 「プランのご案内」ページ ここまで↑ */
 
