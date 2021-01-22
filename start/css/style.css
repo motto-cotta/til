@@ -142,6 +142,9 @@ table thead tr th {
 table tbody tr:nth-child(odd) {
     background-color: #ffffff;
 }
+table tbody tr:nth-child(even) {
+    background-color: #f4f2f0;
+}
 
 /* 「プランのご案内」ページ ここまで↑ */
 
