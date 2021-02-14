@@ -175,5 +175,9 @@ table tbody tr:nth-child(even) {
 /* 「ブライダルフェア」ページ ここまで↑ */
 
 /* 「お問い合わせ」ページ ここから↓ */
+form p {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
 
 /* 「お問い合わせ」ページ ここまで↑ */
