@@ -185,4 +185,10 @@ form p:nth-last-child(2) {
 form p:last-child {
     margin-bottom: 0;
 }
+input[type="text"] {
+    width: 200px;
+}
+input[type="email"] {
+    width: 300px;
+}
 /* 「お問い合わせ」ページ ここまで↑ */
