@@ -191,4 +191,9 @@ input[type="text"] {
 input[type="email"] {
     width: 300px;
 }
+textarea {
+    width: 420px;
+    height: 115px;
+    overflow-y: scroll;
+}
 /* 「お問い合わせ」ページ ここまで↑ */
