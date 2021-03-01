@@ -12,4 +12,4 @@ console.log('Bob is great!');
 showAd();
 console.log('Stave is great!');
 console.log('Richard is great!');
-showAd();
+showAd()
