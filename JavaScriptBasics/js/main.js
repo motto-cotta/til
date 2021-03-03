@@ -1,16 +1,12 @@
 'use strict';
 
-function showAd(message = 'Ad') {
-    console.log('----------');
-    console.log(`--- ${message} ---`);
-    console.log('----------');
+function sum(a, b, c) {
+    // console.log(a + b + c);
+    return a + b + c;
 }
 
-showAd('Header ad');
-console.log('Tom is great!');
-console.log('Bob is great!');
-// showAd('Ad');
-showAd();
-console.log('Stave is great!');
-console.log('Richard is great!');
-showAd('Footer Ad');
+// sum(1, 2, 3);
+// sum(3, 4, 5);
+
+const total = sum(1, 2, 3) + sum(3, 4, 5);
+console.log(total);
