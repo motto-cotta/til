@@ -9,5 +9,5 @@
         console.log(a + b);
     }
 
-    sum(...otherScores);
+    sum(...otherScores)
 }
