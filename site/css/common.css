@@ -5,7 +5,7 @@ body {
 	padding: 0;
 	font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 	font-size: 87.5%;
-	line-height: 1.5;
+	line-height: 1.4;
 }
 p {
 	margin: 0 0 20px 0;
@@ -14,47 +14,49 @@ img {
 	border: 0;
 }
 a {
-	color: #342300;
+	color: #fa474d;
 }
 a:hover {
-	color: #a24100;
+	color: #fc9698;
 }
 header h1 a {
 	display: inline-block;
-	vertical-align: bottom;
 }
 header h1 a img {
 	vertical-align: bottom;
 }
-#breadcrumb ul {
+#path ol {
 	list-style-type: none;
 	padding: 0;
 }
-#breadcrumb ul li {
+#path ol li {
 	display: inline;
 	margin-right: 5px;
 }
-#breadcrumb ul li a {
+#path ol li a {
 	padding-right: 15px;
-	background-image: url(../images/breadcrumb_arrow.png);
+	background-image: url(../images/path_arrow.png);
 	background-repeat: no-repeat;
 	background-position: right center;
 }
 #contents {
 	overflow: hidden;
 }
-.bnr_inner {
+.bnr_area {
 	margin-bottom: 30px;
 }
-.bnr_inner dt img{
+.bnr_area dt img {
 	margin-bottom: 6px;
 	vertical-align: bottom;
 }
-.bnr_inner a {
+.bnr_area a {
 	text-decoration: none;
 }
-.bnr_inner dl, .bnr_inner dt, .bnr_inner dd, .bnr_inner p{
+.bnr_area dl, .bnr_area dt, .bnr_area dd, .bnr_area p {
 	margin: 0;
+}
+.bnr_area p img {
+	vertical-align:text-bottom;
 }
 #pagetop {
 	margin-bottom: 0;
@@ -66,115 +68,95 @@ header h1 a img {
 	padding: 6px 0 6px 28px;
 	background-image: url(../images/bg_arrow.png);
 	background-repeat: no-repeat;
-	background-position: left bottom;
+	background-position: left center;
 }
 address {
-	padding-top: 15px;
+	color: #ffffff;
+	padding: 10px;
 	clear: both;
 	background-image: url(../images/bg_footer.png);
-	background-repeat: no-repeat;
+	background-repeat: repeat-x;
 	font-style: normal;
 	text-align: center;
 }
-#copyright {
-	margin-bottom: 15px;
+#copyright { 
 	text-align: center;
 }
 #copyright small {
 	font-size: 100%;
 }
 #main h2 {
+	color: #ffffff;
 	margin-top: 0;
-	padding: 13px 0 13px 24px;
+	margin-bottom: 17px;
+	padding: 15px 0 15px 10px;
 	background-image: url(../images/bg_h2_head.png), url(../images/bg_h2_bottom.png);
 	background-repeat: no-repeat, no-repeat;
 	background-position: left top, left bottom;
-	font-size: 112.5%;
+	font-size: 140%;
 }
 #graphic {
-	width: 840px;
-
+	width: 860px;
+	height: 300px;
 	margin: 0 auto 30px auto;
 }
 #graphic ul {
-	display: block;
 	list-style: none;
 	padding-left: 0;
-	position: relative;
 }
 #graphic ul li {
-	display: block;
-	opacity: 0;
-}
-#graphic ul li:nth-child(2),
-#graphic ul li:nth-child(3) {
+	display: none;
 	position: absolute;
-	top: 0;
-}
-#graphic ul li:nth-child(1) {
-	position: relative;
-	z-index: 3;
-}
-#graphic ul li:nth-child(2) {
-	z-index: 2;
-}
-#graphic ul li:nth-child(3) {
-	z-index: 1;
 }
 #graphic ul li.now {
-	opacity: 1;
-}
-#graphic ul li.now:nth-child(1) {
-	z-index: 0;
-}
-#graphic ul li img {
-	vertical-align: bottom;
+	display: block;
 }
 #news ul li time {
 	display: inline-block;
-	width: 175px;
-	color: #6c5f45;
+	width: 160px;
 	font-weight: bold;
 	text-indent: 0;
 }
-.concept_box p:last-child {
+.about_area p:last-child {
 	margin-bottom: 0;
 }
-.image_right {
-	margin: 0 0 20px 25px;
+.photo_right {
+	margin: 0 0 10px 20px;
 	float: right;
 }
-.image_left {
-	margin-right: 25px;
-	float: left;
-}
 table {
+	width: 100%;
 	border-collapse: collapse;
 }
-caption {
-	overflow: hidden;
-}
-caption p {
-	margin-bottom: 30px;
-}
 table caption {
+	overflow: hidden;
 	text-align: left;
+}
+table caption p {
+	margin-bottom: 30px;
 }
 table th, table td {
 	padding: 15px;
-	border: 1px solid #6c5f45;
+	border: 1px solid #775644;
 }
 table tr th:first-child {
-	width: 70px;
+	width: 30%;
 }
-table tbody tr:nth-child(even) {
-	background-color: #f4f2f0;
+table tr td:nth-child(2), table tr td:nth-child(3) {
+	text-align: center;
 }
-.gallery_box {
+.animals_area {
 	overflow: hidden;
 }
-.gallery_box:first-of-type {
+.animals_area:first-of-type {
 	margin-top: 30px;
+}
+.animals_area figure img {
+	float: left;
+}
+.animals_area figure figcaption {
+	width: 150px;
+	float: right;
 }
 form p {
 	margin-bottom: 30px;
