@@ -5,5 +5,5 @@
 
     scores.forEach((score, index) => {
         console.log(`Score ${index}: ${score}`);
-    });
+    })
 }
