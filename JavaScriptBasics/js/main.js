@@ -8,5 +8,5 @@
         x: 100,
         y: 180,
     };
-    console.log(point);
+    console.log(point)
 }
