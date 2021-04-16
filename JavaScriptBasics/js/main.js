@@ -13,7 +13,7 @@
     };
     // console.log(point);
 
-    const {x, r, ...others} = point;
+    const {x, r, ...other} = point;
     console.log(x);
     console.log(r);
     console.log(others);
