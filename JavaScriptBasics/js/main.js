@@ -17,7 +17,7 @@
     // console.log(Math.floor(avg));
     // console.log(Math.ceil(avg));
     // console.log(Math.round(avg));
-    // console.log(avg.toFixed(3));
+    // console.log(avg.toFixed(3))
 
     console.log(Math.random());
 }
