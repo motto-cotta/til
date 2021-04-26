@@ -12,7 +12,7 @@
     const avg = sum / scores.length;
 
     // console.log(sum);
-    // console.log(avg);
+    // console.log(avg)
 
     // console.log(Math.floor(avg));
     // console.log(Math.ceil(avg));
