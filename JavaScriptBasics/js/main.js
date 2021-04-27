@@ -1,23 +1,13 @@
 'use strict';
 
 {
-    const scores = [10, 3, 9];
+    // console.log(Math.random());
 
-    let sum = 0;
-
-    scores.forEach(score => {
-        sum += score;
-    });
-
-    const avg = sum / scores.length;
-
-    // console.log(sum);
-    // console.log(avg)
-
-    // console.log(Math.floor(avg));
-    // console.log(Math.ceil(avg));
-    // console.log(Math.round(avg));
-    // console.log(avg.toFixed(3))
-
-    console.log(Math.random());
+    // 0, 1, 2
+  // Math.floor(Math.random() * 3)
+  // 0, ..., n
+  // Math.floor(Math.random() * (n + 1))
+  // min, ..., max
+  // Math.floor(Math.random() * (max + 1 - min)) + min
+  console.log(Math.floor(Math.random() * (6)) + 1);
 }
