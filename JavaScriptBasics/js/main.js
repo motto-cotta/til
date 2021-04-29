@@ -8,6 +8,6 @@
   // 0, ..., n
   // Math.floor(Math.random() * (n + 1))
   // min, ..., max
-  // Math.floor(Math.random() * (max + 1 - min)) + mi
+  // Math.floor(Math.random() * (max + 1 - min))
   console.log(Math.floor(Math.random() * (6)) + 1);
 }
