@@ -6,7 +6,7 @@
     // 0, 1, 2
   // Math.floor(Math.random() * 3)
   // 0, ..., n
-  // Math.floor(Math.random() * (n +
+  // Math.floor(Math.random() * (n
   // min, ..., max
   // Math.floor(Math.random() * (max + 1 - min))
   console.log(Math.floor(Math.random() * (6)) + 1);
