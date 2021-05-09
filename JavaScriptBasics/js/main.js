@@ -11,5 +11,5 @@
     }
   }
 
-  const intervalId = setInterval(showTime, 1000);
+  const intervalId = setInterval(showTime,1000);
 }
