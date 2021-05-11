@@ -1,7 +1,7 @@
 'use strict';
 
 {
-  let i= 0;
+  let i = 0;
 
   function showTime() {
     console.log(new Date());
