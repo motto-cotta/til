@@ -6,7 +6,7 @@
   function showTime() {
     console.log(new Date());
     i++;
-    if (i > 2) {
+    if (i >2) {
       clearInterval(intervalId);
     }
   }
