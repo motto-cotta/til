@@ -7,7 +7,7 @@
     console.log(new Date());
     const timeoutId = setTimeout(showTime, 1000);
     i++;
-    if (i > 2) {
+    if (i>2) {
       clearTimeout(timeoutId);
     }
   }
